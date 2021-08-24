@@ -1,0 +1,17 @@
+module.exports=[
+  {
+    id:1,
+    name:"Danilo Martins da Silva",
+    email:"danilomartins.pacs@gmail.com"
+  },
+  {
+    id:2,
+    name:"Bruna Silva Soares",
+    email:"brunasilvasoares98@gmail.com"
+  },
+  {
+    id:3,
+    name:"Danilo Packs",
+    email:"danilomartins.shego@gmail.com"
+  },
+]
