@@ -30,8 +30,8 @@ jobs:
       - name: Install Dependencies
         run: yarn
         
-      - name: Build
-        run: yarn build
+    #  - name: Build
+     #   run: yarn build
       - uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
