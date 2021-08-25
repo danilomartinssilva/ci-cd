@@ -52,7 +52,7 @@ jobs:
             cd ~/app/build
             yarn 
             ls -la
-            pm2 start app.js --name=appBuild
+            pm2 restart appBuild
 
 
       
