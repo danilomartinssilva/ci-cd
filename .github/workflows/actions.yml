@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - name: Setup repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup Nodejs
         # uses: denoland/setup-deno@v1
@@ -40,8 +40,8 @@ jobs:
           key: ${{ secrets.SSH_KEY }}          
           source: "., !node_modules"
           target: "test"
-    #  - name: Build
-    #    run: pm2 restart testApp
+      - name: Build
+        run: pm2 restart testApp
       
       
           
