@@ -41,7 +41,7 @@ jobs:
           source: "., !node_modules"
           target: "test"
       - name: Build
-        run: yarn build
+        run: pm2 restart testApp
       
       
           
