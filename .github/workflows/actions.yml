@@ -41,7 +41,7 @@ jobs:
           source: "., !node_modules"
           target: "test"
       - name: Build
-        run: pm2 --version
+        run: pm2 restart testApp
       
       
           
