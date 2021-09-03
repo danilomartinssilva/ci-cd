@@ -20,4 +20,15 @@ module.exports=[
     email:"danilomartins.shego@gmail.com"
   },
 
+  {
+    id:5,
+    name:"Arlete Alves",
+    email:"danilomartins.shego@gmail.com"
+  },
+   {
+    id:6,
+    name:"Jeová Risemiro",
+    email:"danilomartins.shego@gmail.com"
+  }
+
 ]
