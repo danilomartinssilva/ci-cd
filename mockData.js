@@ -24,4 +24,9 @@ module.exports=[
     name:"Arlete Alves",
     email:"danilomartins.shego@gmail.com"
   },
+   {
+    id:6,
+    name:"Jeová Risemiro",
+    email:"danilomartins.shego@gmail.com"
+  }
 ]
